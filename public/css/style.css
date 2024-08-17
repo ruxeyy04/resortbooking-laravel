@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dongle:wght@300;400;700&family=Lexend+Deca:wght@700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito&family=Outfit:wght@500&display=swap");
+body {
+	margin: 0;
+	font-family: "Dongle", sans-serif;
+	font-size: 20px;
+	overflow-x: hidden;
+}
+.active {
+	font-weight: 700;
+}
+.d-block {
+	height: 90vh;
+	object-fit: cover;
+}
+.quote {
+	color: black;
+	padding: 10px;
+	font-weight: 700;
+	background-color: #e8b957;
+	font-weight: 700;
+	font-size: 25px;
+}
+.btn-primary {
+	font-size: 20px;
+	background-color: #aa706d;
+	transition: 300ms;
+	font-weight: 700;
+}
+.btn-primary:hover {
+	font-weight: 800;
+	box-shadow: 0px 0px 15px 5px #e8b957;
+	background-color: #aa706d;
+	color: #e8b957;
+	transition: 300ms;
+}
+.btn-warning {
+	font-size: 20px;
+	background-color: #e8b957;
+	transition: 300ms;
+	font-weight: 700;
+}
+.btn-warning:hover {
+	font-weight: 800;
+	box-shadow: 0px 0px 15px 5px #aa706d;
+	background-color: #e8b957;
+	color: #aa706d;
+	transition: 500ms;
+	transform: scale(1.1);
+}
+.sp {
+	margin-top: 100px;
+}
+.sp h3 {
+	font-weight: 700;
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+.card-text {
+	font-weight: 500;
+}
+.card-img-top {
+	aspect-ratio: 1/1;
+}
+.card {
+	transition: 300ms;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.card:hover{
+	transition: 500ms;
+	transform: scale(1.1);
+	border: 1px solid black;
+}
+.abt {
+	margin-top: 100px;
+}
+.abt h3 {
+	font-weight: 700;
+	font-size: 50px;
+}
+.abt h5 {
+	font-size: 20px;
+	font-weight: 700;
+}
+.abt p {
+	font-weight: 500;
+}
+.abt img {
+	height: 228px;
+	width: auto;
+	padding: 30px;
+	object-fit: scale-down;
+}
+#abtimg {
+	padding-top: 70px;
+}
+.breaker {
+	height: 30px;
+	background-color: #e8b957;
+	margin-top: 100px;
+}
+footer {
+	padding-top: 40px;
+	background-image: url("../img/yuliya-pankevich-oyxsG2Lh_uA-unsplash.jpg");
+}
+#navi h4,
+h5 {
+	color: black;
+}
+#navi {
+	margin-bottom: 50px;
+}
+#soc {
+	margin-bottom: 50px;
+}
+#navi {
+	margin-bottom: 50px;
+}
+@media only screen and (max-width: 600px) {
+
+}
+.resort h3 {
+	font-weight: 700;
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+#search {
+	border-bottom: 1px solid black;
+}
+.navbar input{
+	border: 0px;
+}
+#srchbtn{
+	background-color: transparent;
+}
+.login span{
+	cursor: pointer;
+}
+.login{
+	margin-top: 70px;
+	margin-bottom: 100px;
+}
+#meimg img{
+	transform: scale(1.6);
+	margin-bottom: 20px;
+}
+#meimg h3{
+	margin-top: 50px;
+}
+#meimg h4{
+	font-weight: bold;
+}
